@@ -7,11 +7,17 @@
 
 ## The Algorithm
 
-The dataset used for the project can be viewed [here](https://www.kaggle.com/datasets/kmader/food41). Note: some of the lesser-known/less relevant food classes were removed from the final dataset used for training the model to make it smaller and quicker to train. The model was trained using 
+The dataset used for the project can be viewed [here](https://www.kaggle.com/datasets/kmader/food41). Note: some of the lesser-known/less relevant food classes were removed from the final dataset used for training the model to make it smaller and quicker to train. 
+The model(resnet18) was trained using the dataset, and classifies a food item as one of the 84 food items from the used dataset and gives a confidence rating accordingly.
 
 ## Running this project
 
-1. Add steps for running this project.
-2. Make sure to include any required libraries that need to be installed for your project to run.
+You can run the trained model through project.py.
+1. Make sure all the files(image you will be detecting, project.py, foodtocal.csv, and resnet18.onnx) are in the same directory
+2. Run the following command:
+   python3 project.py (name of input image) (name of output image(optional, will output as output.jpg if not specified))
+Example:
+   python3 project.py pizza_image.jpg output.jpg
+
 
 [View a video explanation here](video link)

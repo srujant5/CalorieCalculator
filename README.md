@@ -8,8 +8,11 @@
 ## The Algorithm
 
 The dataset used for the project can be viewed [here](https://www.kaggle.com/datasets/kmader/food41). Note: some of the lesser-known/less relevant food classes were removed from the final dataset used for training the model to make it smaller and quicker to train. 
+
 The model(resnet18) was trained using the dataset, and classifies a food item as one of the 84 food items from the used dataset and gives a confidence rating accordingly.
+
 In order to print the result of the reconized food item and the calories per serving on top of the output image, code snippets from the imagenet.py file were used.
+
 ## Running this project
 
 You can run the trained model through project.py.

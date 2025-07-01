@@ -19,10 +19,12 @@ You can run the trained model through project.py.
 1. Make sure all the files(image you will be detecting, project.py, foodtocal.csv, and resnet18.onnx) are in the same directory
 2. Make sure you have the jetson-inference library downloaded
 3. Run the following command:
-   `python3 project.py [name of input image] [name of output image(optional, will output as output.jpg if not specified)]`
+   <pre><code>python3 project.py [name of input image] [name of output image(optional, will output as output.jpg if not specified)]</code></pre>
 Example:
-   `python3 project.py pizza_image.jpg output.jpg`
+   <pre><code>python3 project.py pizza_image.jpg output.jpg</code></pre>
 The project will give the output image and will also print the output in the terminal(recognized image and also the calories per serving for that food item).
 
-
+## Resources
+[Dataset](https://www.kaggle.com/datasets/kmader/food41)
+[Jetson-Inference Github](https://github.com/dusty-nv/jetson-inference)
 [View a video explanation here](video link)

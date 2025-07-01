@@ -39,8 +39,6 @@ while True:
     for n, (classID, confidence) in enumerate(predictions):
         classLabel = net.GetClassLabel(classID)
         confidence *= 100.0
-        print(font.GetSize())
-        print(f"imagenet:  {confidence:05.2f}% class #{classID} ({classLabel})")
         label=str(classLabel)
         final_confidence=confidence
         font.OverlayText(img,text=ftc[classLabel], 

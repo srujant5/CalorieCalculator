@@ -26,5 +26,7 @@ The project will give the output image and will also print the output in the ter
 
 ## Resources
 [Dataset](https://www.kaggle.com/datasets/kmader/food41)
+
 [Jetson-Inference Github](https://github.com/dusty-nv/jetson-inference)
+
 [View a video explanation here](https://drive.google.com/file/d/1vSudq0w_fnshxsE9FmCQ7dEqtoKM5CnY/view?usp=sharing)
